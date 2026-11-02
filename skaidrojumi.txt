@@ -1,0 +1,5 @@
+J1. Klusā kļūda:
+To pamana pēc tā, ka rezultāts nesakrīt ar gaidīto. Vispirms pārbaudītu mainīgo nosaukumus un filtrēšanas nosacījumus (`if` vai `Where-Object`), kur visbiežāk slēpjas kļūda.
+
+J2. Datnes kodējums:
+Cēlonis ir neatbilstība starp CSV faila kodējumu/atdalītāju un to, ko Excel gaida pēc noklusējuma. Labojums: saglabāt failu ar pareizu kodējumu (piemēram, `-Encoding UTF8`) un atbilstošu atdalītāju.
